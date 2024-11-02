@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+nav{
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border-bottom: #191919 solid 0.5px;
+    position: fixed;
+  z-index: 999;
+  width: 100%;
+  transition: background-color 0.4s;
+}
+
+
+
+nav div{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    margin-right: 9rem;
+    font-size: 15px;
+    color:#191919;
+    margin-top: 1rem;
+}
+#logo{
+    margin-left: 5rem;
+}
+
+#pulsantespeciale{
+    margin-top: -0.6rem;
+    padding: 5px 10px;
+    display: flex;
+    color:white;
+    background-color: black;
+    width: 80px;
+    height: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header{
+    padding-top: 100px;
+    display: flex;
+    background-color: #ffc017;
+    border-bottom: #191919 0.5px;
+}
+
+#start{
+ 
+    padding: 5px 10px;
+    color:white;
+    background-color: #191919;
+    width: 200px;
+    height: 45px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    font-size: 22px;
+    font-family: "Roboto";
+    line-height: 20px;
+}
+
+header h1{
+    display: flex;
+    font-family: "Spectral";
+    font-size: 125px;
+    font-weight: 500;
+    height: 40px;
+   }
+
+   header h4{
+   display: flex;
+   font-family: "Roboto";
+   font-weight: 400;
+   font-size: 1.9rem;
+   margin-top: 2.5rem;
+   color:#191919
+
+   }
+
+.title{
+    display: flex;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: space-around ;
+    width: 70%;
+}
+
+.m{
+    display: flex;
+    width: 50%;
+    padding-top: 0;
+    padding-left: 0;
+   justify-content: end;
+  }
+
+  main{
+    margin-top: 2.6rem;
+    margin-left: 3rem;
+    padding-bottom: 80px;
+}
+
+
+#abc{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-left: 3rem;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 1.20em;
+ }
+
+h5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 0.8em;
+    margin-bottom: 5.6px;
+    color: #191919;
+}
+.autore{
+    padding-bottom: 1rem;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.specifiche{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "roboto";
+    font-size: 16px;
+    font-weight: 400;
+    color:#989191
+}
+.card{
+    display: flex;
+    font-size: 20px;
+    margin-right: 25px;
+    width: 31%;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.cerchio{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.quadrato{
+    height: 20px;
+    width: 20px;
+    border-radius: 20%;
+}
+
+span{
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 800;
+    color:rgb(234, 238, 241);
+    margin-right: 10px;
+}
+
+h5 img{
+    margin-right: 8px;
+}
+
+
+.descr{
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 1.20em;
+    margin-bottom: 1rem;
+}
+
+.star{
+    padding-right: 9rem;
+}
+
+#partetotale{
+    border-top: gray solid 0.5px ;
+    display: flex;
+
+}
+
+
+#container2{
+   display: flex;
+   padding-top: 4rem;
+  padding-left: 4rem;
+}
+
+aside h3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+
+h3 img{
+    margin-right:10px;
+}
+
+
+.titG{
+    font-family: "roboto";
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+.descrG{
+    font-family: "roboto";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    color:#989191;
+}
+
+
+.butt2{
+    padding: 5px 10px;
+    color:gray;
+    background-color: rgb(234, 238, 241);
+    width: 70px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    font-size: 20px;
+    font-family: "Roboto";
+    line-height: 20px;
+}
+
+
+.specifiche2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Roboto";
+    font-size: 19px;
+    font-weight: 300;
+    justify-content: flex-start;
+  align-items: center;
+ color: #989191
+}
+
+.bookmark{
+    margin-left: auto;
+}
+
+.immsx{
+    margin-left: 3rem;
+    height: 180px;
+    width: 280px;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+}
+
+.card2{
+    display: flex;
+}
+
+#btn3{
+    color:gray;
+    background-color: rgb(234, 238, 241);
+    width: 201px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    font-size: 20px;
+    font-family: "Roboto";
+    line-height: 20px;
+}
+
+#btn4{
+    color:gray;
+    background-color: rgb(234, 238, 241);
+    width: 140px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    font-size: 20px;
+    font-family: "Roboto";
+    line-height: 20px;
+}
+#btn6{
+    color:gray;
+    background-color: rgb(234, 238, 241);
+    width: 100px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    font-size: 20px;
+    font-family: "Roboto";
+    line-height: 20px;
+}
+
+#spec{
+    margin-left: 5rem;
+    height: 180px;
+    width: 280px;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+}
+
+#partedestra{
+    padding-top: 3rem;
+    padding-left: 3rem;
+    width: 25%;
+    position: absolute;
+    transition: top 0,3s ;
+    right:0;
+    margin-right: 100px;
+    transition: top 0,3s;
+ 
+}
+#partedestra h5{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 5.6px;
+    color: black;
+}
+#ultimibtn{
+    margin-top: 20px;
+    border-bottom: gray  0.5px ;
+    padding-bottom: 2rem;
+}
+
+button{
+    margin-bottom: 10px;
+    color: #989191;
+    padding-top: 8px;
+    padding-bottom: 27px;
+    background-color: rgb(234, 238, 241);
+    border-style: #989191 ;
+    font-family: "roboto";
+    font-weight: 400;
+    line-height: 20px;
+   text-align: center;
+}
+
+#ultimibtn button{
+    height: 30px;
+    background-color: white;
+}
+
+#ultimilink{
+    margin-top: 4rem;
+}
+
+#ultimilink a{
+    text-decoration: none;
+    color: #989191 ;
+    font-family: "roboto";
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+aside{
+    margin-bottom: 5rem;
+}
